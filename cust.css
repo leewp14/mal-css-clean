@@ -1,0 +1,174 @@
+body {
+  background-image: none;
+  background-color: white;
+}
+
+.status-menu-container {
+  width: 100%;
+  height: 45px;
+}
+
+.status-menu-container .status-menu .status-button:after {
+  background-color: black;
+  height: 2px;
+}
+
+.status-menu-container .status-menu .status-button.on {
+    color: black;
+    font-weight: normal;
+}
+
+.status-menu-container.fixed {
+  box-shadow: 0 2px 30px -10px rgba(17,17,17,0.3);
+  border-bottom: none;
+}
+
+.list-unit .list-status-title .text {
+  color: black;
+  font-weight: normal;
+  vertical-align: top;
+}
+
+.list-unit .list-status-title {
+  background-color: transparent;
+}
+
+.list-menu-float .icon-menu:not(.profile):hover {
+  background-color: white;
+  box-shadow: 0 4px 20px rgba(50,50,50,0.2);
+}
+
+.list-menu-float .icon-menu:hover svg.icon {
+  fill: black;
+}
+
+.list-menu-float .icon-menu .text {
+  color: black;
+  top: 16px;
+}
+
+.list-menu-float .icon-menu {
+  background-color: white;
+}
+
+.list-menu-float {
+  border: none;
+  box-shadow: 0 5px 50px rgba(50,50,50,0.1);
+}
+
+.list-menu-float .icon-menu svg.icon {
+  fill: lightgray;
+}
+
+.list-menu-float:hover {
+  box-shadow: 0 5px 50px rgba(50,50,50,0.4);
+}
+
+.list-menu-float .icon-menu.setting:hover .text {
+  box-shadow: 0 5px 50px rgba(50,50,50,0.2);
+}
+
+.list-menu-float .icon-menu.setting:hover .text .link-list-setting, .list-menu-float .icon-menu.setting:hover .text .link-style-setting {
+  background-color: white;
+  color: black;
+}
+
+.list-container {
+  width: inherit;
+}
+
+.list-table {
+  border: #f0f0f0 1px solid;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.list-table:hover {
+  box-shadow: 0 1px 10px rgba(50,50,50,0.2);
+}
+
+.list-table .list-table-data .data.status.completed {
+  background-color: white;
+}
+
+.list-table .list-table-data .data.title .link {
+  font-weight: normal;
+}
+
+.list-table .list-table-data a:not(.edit-disabled):hover {
+  color: black !important;
+}
+
+a{
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+.header {
+  color: black;
+}
+
+.header a {
+  color: black;
+  font-weight: normal;
+}
+
+.header .header-title {
+  filter: invert(100%);
+}
+
+.header .header-info a {
+  color: black;
+  font-weight: normal;
+}
+
+.header .username {
+  font-weight: normal;
+}
+
+.header .header-menu .list-menu .icon-menu svg.icon {
+  fill: gray;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.header .header-menu .list-menu .icon-menu:hover svg.icon {
+  fill: black;
+}
+
+.header .header-menu .list-menu .icon-menu {
+  color: gray;
+}
+
+.header .header-menu .list-menu .icon-menu:hover {
+  color: black;
+}
+
+.header .header-menu .list-menu {
+  border: #f0f0f0 1px solid;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0 4px;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.header .header-menu .list-menu:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0 10px;
+}
+
+.header .header-menu .list-menu .icon-menu:hover {
+  background-color: white;
+}
+
+.cover-block .image-container:hover .btn-list-setting {
+  right: 140px;
+}
+
+#footer-block {
+  visibility: hidden;
+}
