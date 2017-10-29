@@ -1,5 +1,5 @@
-# mal-css-cust
-My custom CSS for MyAnimeList
+# mal-css-clean
+Clean style for MyAnimeList
 
 ## Demo
 leewp14's MAL Anime List : https://myanimelist.net/animelist/leewp14
