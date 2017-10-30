@@ -6,7 +6,7 @@ Clean style for MyAnimeList
 
 ## Note
 - Intended for use with modern template only. 
-- Background Image should be turned off for best result. 
+- Background Image will not work for this style. 
 
 ## Preview
 leewp14's MAL Anime List : https://myanimelist.net/animelist/leewp14

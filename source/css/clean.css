@@ -115,6 +115,7 @@ a:hover {
 
 .header {
   color: black;
+  background-color: white;
 }
 
 .header a {
@@ -175,5 +176,9 @@ a:hover {
 }
 
 #footer-block {
-  visibility: hidden;
+  background-color: white;
+}
+
+#copyright {
+  color: gray;
 }
